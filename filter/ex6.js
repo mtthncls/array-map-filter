@@ -27,6 +27,19 @@ Sortie attendue:
 */
 
 function filterOffensiveComments(comments, bannedWords) {
+  const filterResult6 = comments.filter(
+    comment => {
+      const commentMin = comment.toLowerCase().split(" ")
+      for (let i = 0; i < bannedWords.length; i++) {
+        if (commentMin.indexOf(bannedWords[i]) !== -1) {
+          return false
+        }
+      }
+      return true
+
+    })
+
+  return filterResult6
 }
 
 // Ne pas modifier l'export

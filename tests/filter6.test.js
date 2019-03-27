@@ -1,6 +1,6 @@
 const filterOffensiveComments = require('../filter/ex6.js');
 
-xdescribe('filter - exercice 6', () => {
+describe('filter - exercice 6', () => {
 
   test('filterOffensiveComments', () => {
     expect(filterOffensiveComments([
@@ -9,11 +9,11 @@ xdescribe('filter - exercice 6', () => {
       "Why you put bloody kitten pictures in a tech tutorial is beyond me!",
       "Which one is better, React or Angular?",
       'There is no "better", it depends on your use case, DAMN YOU'
-        ], ['damn', 'bloody']))
-    .toEqual([
-      "Very useful tutorial, thank you so much!",
-      "Which one is better, React or Angular?",
-    ]);
+    ], ['damn', 'bloody']))
+      .toEqual([
+        "Very useful tutorial, thank you so much!",
+        "Which one is better, React or Angular?",
+      ]);
   });
 
 });
