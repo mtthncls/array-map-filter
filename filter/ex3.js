@@ -24,6 +24,13 @@ Sortie attendue:
  */
 
 function keepStarks(names) {
+  const resultFilter3 = names.filter(family => {
+    const test = family.split(" ")
+    if (test[1] === 'Stark') {
+      return family
+    }
+  })
+  return resultFilter3
 }
 
 // Ne pas modifier l'export
