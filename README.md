@@ -1,4 +1,5 @@
 # Exercices sur map et filter
+[![Build Status](https://travis-ci.com/mtthncls/array-map-filter.svg?branch=master)](https://travis-ci.com/mtthncls/array-map-filter)
 
 ## Installation
 
