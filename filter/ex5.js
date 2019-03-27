@@ -39,6 +39,15 @@ Exemple d'entrée:
  */
 
 function searchWordFilter(items, search) {
+  const resultFilter5 = items.filter(movie => {
+    const searchmin = search.toLowerCase()
+    const test = movie.toLowerCase()
+    const test2 = test.split(" ")
+    if (test2.indexOf(searchmin) !== -1) {
+      return movie
+    }
+  })
+  return resultFilter5
 }
 
 // Ne pas modifier l'export
