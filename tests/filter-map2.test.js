@@ -1,6 +1,6 @@
 const getCampusesTeachingReact = require('../filter-map/ex2.js');
 
-xdescribe('map + filter - exercice 2', () => {
+describe('map + filter - exercice 2', () => {
 
   test('getCampusesTeachingReact', () => {
     expect(getCampusesTeachingReact([
@@ -12,7 +12,7 @@ xdescribe('map + filter - exercice 2', () => {
       { city: 'Reims', curriculums: ['JS/React'] },
       { city: 'Toulouse', curriculums: ['JEE/Android', 'JS/React'] }
     ]))
-    .toEqual(['Bordeaux', 'Lille', 'Marseille', 'Reims', 'Toulouse']);
+      .toEqual(['Bordeaux', 'Lille', 'Marseille', 'Reims', 'Toulouse']);
   });
 
 });
