@@ -1,11 +1,12 @@
 const getStudentsPerCurriculum = require('../filter-map/ex3.js');
 
-xdescribe('map + filter - exercice 3', () => {
+describe('map + filter - exercice 3', () => {
 
   test('getStudentsPerCurriculum', () => {
     expect(getStudentsPerCurriculum(
       [
-        { city: 'Bordeaux',
+        {
+          city: 'Bordeaux',
           curriculums: [
             { name: 'PHP/Symfony', numStudents: 12 },
             { name: 'JS/React', numStudents: 29 }
@@ -31,8 +32,8 @@ xdescribe('map + filter - exercice 3', () => {
           ]
         }
       ], 'PHP/Symfony'
-      ))
-    .toEqual([{ Bordeaux: 12 }, { Lille: 12 }]);
+    ))
+      .toEqual([{ Bordeaux: 12 }, { Lille: 12 }]);
   });
 
 });
