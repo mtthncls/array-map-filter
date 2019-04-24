@@ -1,6 +1,10 @@
 # Exercices sur map et filter
 [![Build Status](https://travis-ci.com/mtthncls/array-map-filter.svg?branch=master)](https://travis-ci.com/mtthncls/array-map-filter)
 
+## But / Purpose
+Exercices de découverte et d'entraînement à l'utilisation des fonctions map et filter en Javascript.
+Discovery and training exercises about the correct use of map and filter functions in Javascript
+
 ## Installation
 
 * [EDIT] **D'abord** forker, **puis** cloner ce repo (indispensable pour Travis, sinon ça marche quand même sans Travis)
